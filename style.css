@@ -12,7 +12,7 @@ body{
   margin: 0;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1200px){
   body{
     height: 100%;
     background-color: white;
@@ -60,7 +60,7 @@ img[src="images/whit.jpg"]{
 }
 
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1200px){
   .menu{
     display: grid;
     grid-column-start: 1;
@@ -72,7 +72,7 @@ img[src="images/whit.jpg"]{
 }
 
 
-@media screen and (min-width: 980px){
+@media screen and (min-width: 1200px){
   .index{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -147,7 +147,7 @@ a[href$=".html"]:active{
   margin: 0px;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1200px){
   .header{
     display: grid;
     grid-column-start: 1;
@@ -167,7 +167,7 @@ a[href$=".html"]:active{
   margin: 0px;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1200px){
   .description{
     display: grid;
     grid-column-start: 1;
@@ -186,7 +186,7 @@ a[href$=".html"]:active{
   grid-row-end: 7;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1200px){
   .metimg{
     display: grid;
     grid-column-start: 1;
@@ -204,7 +204,7 @@ a[href$=".html"]:active{
   grid-row-end: 10;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1200px){
   .momaimg{
     display: grid;
     grid-column-start: 1;
@@ -222,7 +222,7 @@ a[href$=".html"]:active{
   grid-row-end: 10;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1200px){
   .whitimg{
     display: grid;
     grid-column-start: 1;
