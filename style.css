@@ -60,53 +60,68 @@ img[src="images/whit.jpg"]{
 }
 
 
-.index{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  text-align: center;
-  background-color: black;
-  padding-top: 10px;
+@media screen and (max-width: 980px){
+  .menu{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: black;
+  }
 }
 
-.met{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  text-align: center;
-  background-color: black;
-  padding-top: 10px;
+
+@media screen and (min-width: 980px){
+  .index{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+  }
+
+  .met{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+  }
+
+  .moma{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+  }
+
+  .whitney{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+  }
+
+  .frick{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+  }
+
+  .gugg{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+  }
 }
 
-.moma{
-  grid-column-start: 3;
-  grid-column-end: 4;
-  text-align: center;
-  background-color: black;
-  padding-top: 10px;
-}
-
-.whitney{
-  grid-column-start: 4;
-  grid-column-end: 5;
-  text-align: center;
-  background-color: black;
-  padding-top: 10px;
-}
-
-.frick{
-  grid-column-start: 5;
-  grid-column-end: 7;
-  text-align: center;
-  background-color: black;
-  padding-top: 10px;
-}
-
-.gugg{
-  grid-column-start: 7;
-  grid-column-end: 8;
-  text-align: center;
-  background-color: black;
-  padding-top: 10px;
-}
 
 a[href$=".html"]{
   font-family: 'Poppins', sans-serif;
