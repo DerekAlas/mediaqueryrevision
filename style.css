@@ -157,10 +157,21 @@ img[src="images/ham.png"]:hover .items{
 }
 
 
-a[href$=".html"]{
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  text-decoration: none;
+@media screen and (min-width: 1200px){
+  a[href$=".html"]{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  a[href$=".html"]{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
 }
 
 a[href$=".html"]:hover{
