@@ -78,11 +78,14 @@ img[src="images/ham.png"]{
 }
 
 .items{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 7;
   background-color: black;
+  padding-top: 100px;
+  text-align: center;
 }
 
 
