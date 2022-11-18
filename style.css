@@ -73,8 +73,21 @@ img[src="images/whit.jpg"]{
 }
 
 img[src="images/ham.png"]{
-  width: 40px;
+  width: 10%;
   height: 100%;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background-color: black;
+}
+
+
+img[src="images/ham.png"]:hover .items{
+  display: block;
 }
 
 
